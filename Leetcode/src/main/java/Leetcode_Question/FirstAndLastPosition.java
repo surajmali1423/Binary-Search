@@ -56,8 +56,8 @@ public class FirstAndLastPosition {
         int target = 7;
 
         int [] ans = FirstAndLastElement(arr , target);
-        for(int x : ans){
-            System.out.print(x+" ");
+        for(int ele : ans){
+            System.out.print(ele+" ");
         }
     }
 }
