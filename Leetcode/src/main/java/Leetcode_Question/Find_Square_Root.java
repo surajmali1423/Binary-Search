@@ -10,7 +10,7 @@ public class Find_Square_Root {
 
          while (lo <= hi){
               int mid = lo + (hi - lo) / 2;
-              int root = mid * mid;
+             long root = (long) mid * mid;
 
                if(root <= x){
                     ans = mid;
@@ -25,7 +25,7 @@ public class Find_Square_Root {
          return ans;
     }
     static void main() {
-        int squareroot = 50;
+        int squareroot = 2147395599;
         System.out.println("The Closed Square Of the "+squareroot+ " is "+sqrt(squareroot));
     }
 }
